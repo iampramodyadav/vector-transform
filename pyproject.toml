@@ -1,0 +1,22 @@
+# pyproject.toml
+[build-system]
+requires = ["hatchling"]  # Or use "setuptools" if you prefer
+build-backend = "hatchling.build"  # Or "setuptools.build_meta"
+
+[project]
+name = "vector-transform"
+version = "0.1.0"
+authors = [
+  { name = "Pramod Yadav", email = "pkyadav01234@gmail.com" },
+]
+description = "A package for vector transformations and decorators"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+  "numpy>=1.21.0"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",  # Adjust if using a different license
+  "Operating System :: OS Independent",
+]
